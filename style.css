@@ -1,0 +1,82 @@
+:root {
+  --dark: #002233;
+  --light: #f1faee;
+  --dark-bg: #01141d;
+  --light-bg: #ffffff;
+  --logo: #fd5e5e;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-item {
+  transition: all 500ms;
+}
+
+.nav-item:hover {
+  transform: translateY(-2px);
+}
+
+.home {
+  background-color: var(--light-bg);
+}
+.home .row {
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+.home .btn {
+  transition: all 500ms;
+}
+
+.home .btn:hover {
+  transform: translateY(-2px);
+}
+
+.about {
+  background-color: var(--dark-bg);
+}
+
+.about .row {
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+.project {
+  background-color: var(--light-bg);
+}
+
+.project .row {
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+.contact {
+  background-color: var(--dark-bg);
+}
+
+.contact .row {
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+.contact .btn {
+  transition: all 500ms;
+}
+
+.contact .btn:hover {
+  transform: translateY(-2px);
+}
+
+.footer {
+  background-color: var(--dark);
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  color: #fff3e4;
+}
